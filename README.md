@@ -381,7 +381,7 @@ Si las divergencias no aparecen automáticamente:
 
 ## 🤝 Créditos
 
-Desarrollado con ❤️ por **[Tu Nombre]**
+Desarrollado con ❤️ por **Guido Gómez (Gúydal)**
 
 Tecnologías utilizadas:
 - [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) - Interfaz moderna
@@ -398,9 +398,9 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ## 💬 Contacto
 
-- **GitHub**: [@tu-usuario](https://github.com/tu-usuario)
+- **GitHub**: [@tu-usuario](https://github.com/agraound)
 - **Email**: tu-email@example.com
-- **Issues**: [Reportar un problema](https://github.com/tu-usuario/aetheryon-dev-core/issues)
+- **Issues**: [Reportar un problema](https://github.com/agraound/git-devcore-customtkinter/issues)
 
 ---
 
