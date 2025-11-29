@@ -398,7 +398,7 @@ Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) par
 
 ## 💬 Contacto
 
-- **GitHub**: [@tu-usuario](https://github.com/agraound)
+- **GitHub**: [@agraound](https://github.com/agraound)
 - **Email**: contacto@agraound.site
 - **Issues**: [Reportar un problema](https://github.com/agraound/git-devcore-customtkinter/issues)
 
