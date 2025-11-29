@@ -1,0 +1,32 @@
+# Dependencias
+node_modules/
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build & Distribución
+dist/
+build/
+*.egg-info/
+.next/
+.nuxt/
+target/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Archivos de entorno
+.env
+.env.local
