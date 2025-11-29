@@ -1204,8 +1204,10 @@ class AetheryonDevCoreApp:
                      fg_color="#E65100", width=140, height=35).grid(row=0, column=3, padx=3, pady=3)
         ctk.CTkButton(frame_avanzado, text="🚀 Crear Tag", command=self.crear_tag_version, 
                      fg_color="#BF360C", width=110, height=35).grid(row=0, column=4, padx=3, pady=3)
+        ctk.CTkButton(frame_ramas, text="🔀 Merge", command=self.merge_ramas, 
+                     fg_color="#7B1FA2", width=110, height=35).grid(row=0, column=5, padx=3, pady=3)
         ctk.CTkButton(frame_ramas, text="📦 Stashes", command=self.gestionar_stashes,
-                     fg_color="#FF6F00", width=110, height=35).grid(row=0, column=5, padx=3, pady=3)
+                     fg_color="#FF6F00", width=110, height=35).grid(row=0, column=6, padx=3, pady=3)
 
 
         # TAB 4: GitHub
@@ -2582,7 +2584,7 @@ class AetheryonDevCoreApp:
         """Muestra ventana con análisis detallado de divergencias"""
         ventana_div = ctk.CTkToplevel(self.root)
         ventana_div.title("⚠️ Divergencia Detectada")
-        ventana_div.geometry("1000x700")
+        ventana_div.geometry("1000x600")
         ventana_div.transient(self.root)
         ventana_div.attributes('-topmost', True)
         ventana_div.grab_set()
@@ -2613,7 +2615,7 @@ class AetheryonDevCoreApp:
         ctk.CTkLabel(ventana_div, text="Archivos divergentes:", 
                     font=("Arial", 12, "bold")).pack(pady=10)
         
-        scroll_frame = ctk.CTkScrollableFrame(ventana_div, width=950, height=350)
+        scroll_frame = ctk.CTkScrollableFrame(ventana_div, width=950, height=250)
         scroll_frame.pack(pady=5, padx=20)
         
         # Header
